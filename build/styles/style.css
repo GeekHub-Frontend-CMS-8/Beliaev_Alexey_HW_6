@@ -1,0 +1,143 @@
+*{
+    font-family: "Lato", sans-serif;
+}
+
+.wrapper{
+    max-width: 1360px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+h2{
+    font-family: "Asap", fantasy;
+    font-weight: 900;
+    font-size: 46px;
+    color: #4d4d4d;
+}
+
+.hero{
+    background: #dedede url("../images/home/background.jpg");
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 100px 0 100px;
+}
+
+/*LOGO*/
+.logo{
+    display: inline-block;
+    margin-left: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+
+.logo>img{
+    margin: 0 35px;
+}
+
+.main_name_logo{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.down_name_logo{
+    font-size: 4px;
+    font-weight: 600;
+}
+/************/
+
+/*MENU*/
+.menu_header_container{
+/*На будущее думал*/
+}
+
+.menu_header{
+    display: flex;
+}
+
+ul.menu_header>li{
+    margin: 0 20px;
+    display: inline-block;
+}
+
+.element_menu{
+    text-decoration: none;
+    color: #000;
+    font-family: "Asap", sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.element_menu:hover{
+    padding-bottom: 5px;
+    border-bottom: black 1px solid;
+}
+/***********/
+.container_hero{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container_hero_text{
+    padding: 170px 0 280px 0;
+    font-family: "Asap", sans-serif;
+}
+
+h1{
+    font-size: 90px;
+    font-weight: 700;
+    color: #4d4d4d;
+}
+
+div.container_hero_text>p{
+    font-size: 22px;
+    font-weight: 400;
+    color: #9a9a9a;
+}
+.block_button_hero{
+/*На будущее*/
+}
+
+
+button {
+    margin: 30px 10px 0 10px;
+    padding: 20px 35px;
+    font-size: 16px;
+    font-weight: 500;
+    background: transparent;
+    border: 1px solid #4d4d4d; }
+button:hover {
+    background: #fff;
+    border: 1px solid #fff;
+    box-shadow: 0 18px 27px 2px rgba(0, 0, 0, 0.1);
+    transition: 0.3s; }
+
+.about{
+    background-color: #fff;
+    padding: 110px 0;
+}
+
+.container_content_about{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content_about{
+    margin-right: 130px;
+    padding: 70px 5px 35px 10px;
+}
+
+.text_line_border{
+    border-top: #4d4d4d 3px solid;
+}
+
+.content_about>p{
+    margin-top: 12px;
+    color: #4d4d4d;
+    font-size: 16px;
+    line-height: 26px;
+}
