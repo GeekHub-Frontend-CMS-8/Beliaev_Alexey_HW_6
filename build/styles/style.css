@@ -141,3 +141,48 @@ button:hover {
     font-size: 16px;
     line-height: 26px;
 }
+
+.services{
+    background-color: #f6f6f6;
+    text-align: center;
+}
+
+.container_services{
+    padding: 115px 0 60px 0;
+}
+
+.container_services_icon{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: baseline;
+    padding: 0 70px 115px 70px;
+}
+
+.icon_services{
+    width: 77px;
+    height: 77px;
+    margin: 0 20px;
+}
+
+.text_icon_services{
+    font-family: "Asap", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #4d4d4d;
+}
+
+.block_services{
+    display: block;
+    max-width: 33%;
+    width: 100%;
+    margin-top: 35px;
+}
+
+.skill{
+    text-align: center;
+}
+
+.container_skill{
+    padding: 120px 0;
+}
